@@ -1,0 +1,129 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.container {
+  border: ;
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+}
+
+.textarea {
+  background: transparent;
+  resize: none;
+  font-size: 12px;
+  color: #000000;
+  padding: 2px;
+}
+
+.event-input {
+  border: none;
+  width: 100%;
+  float: left;
+}
+
+.event-div {
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  height: 70px;
+}
+
+.saved-events {
+  width: 100%;
+  font-size: 13px;
+  color: black;
+  height: 100%;
+  float: left;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-bottom: 1px solid black;
+  line-height: 50px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  padding: 10px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1 px solid #06aed5;
+  border-top: 1 px solid #06aed5;
+  border-bottom: 1 px solid #06aed5;
+  background-color: #06aed5;
+  color: white;
+  float: left;
+  width: 130px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-color: rgb(202, 245, 202);
+  }
+
+  .container,
+  .event-div,
+  .row {
+    max-width: 100%;
+    float: left;
+  }
+
+  .event-div,
+  .time-block {
+    height: 70px;
+  }
+
+  .saveBtn {
+    width: 50px;
+    font-size: 10px;
+  }
+}
